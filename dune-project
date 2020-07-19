@@ -6,8 +6,8 @@
 (authors "Misha Aizatulin <mihhail.aizatulin@gmail.com>")
 (maintainers "Misha Aizatulin <mihhail.aizatulin@gmail.com>")
 (name webgpu)
-(homepage https://github.com/tari3x/js_of_ocaml-webidl)
-(bug_reports https://github.com/tari3x/js_of_ocaml-webidl)
+(homepage https://github.com/tari3x/webgpu)
+(bug_reports https://github.com/tari3x/webgpu)
 (package
   (name js_of_ocaml-webidl)
   (synopsis "Generate js_of_ocaml bindings from webidl definitions")
