@@ -11,6 +11,15 @@
 (package
   (name js_of_ocaml-webidl)
   (synopsis "Generate js_of_ocaml bindings from webidl definitions")
+  (depends
+   core
+   async
+   webidl
+   ppx_deriving.runtime
+   js_of_ocaml
+   js_of_ocaml-lwt
+   js_of_ocaml-ppx
+   ppx_jane)
  )
 (package
   (name js_of_ocaml-webgpu)
