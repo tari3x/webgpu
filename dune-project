@@ -5,7 +5,7 @@
 (license  BSD-3-Clause)
 (authors "Misha Aizatulin <mihhail.aizatulin@gmail.com>")
 (maintainers "Misha Aizatulin <mihhail.aizatulin@gmail.com>")
-(name webgpu)
+(name js_of_ocaml-webgpu)
 (homepage https://github.com/tari3x/webgpu)
 (bug_reports https://github.com/tari3x/webgpu)
 (source (github tari3x/webgpu))
