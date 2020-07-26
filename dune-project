@@ -8,6 +8,7 @@
 (name js_of_ocaml-webgpu)
 (homepage https://github.com/tari3x/webgpu)
 (bug_reports https://github.com/tari3x/webgpu)
+(documentation https://github.com/tari3x/webgpu)
 (source (github tari3x/webgpu))
 (package
   (name js_of_ocaml-webidl)
