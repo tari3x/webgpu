@@ -6,7 +6,6 @@ maintainer: ["Misha Aizatulin <mihhail.aizatulin@gmail.com>"]
 authors: ["Misha Aizatulin <mihhail.aizatulin@gmail.com>"]
 license: "BSD-3-Clause"
 homepage: "https://github.com/tari3x/webgpu"
-doc: "https://tari3x.github.io/webgpu/"
 bug-reports: "https://github.com/tari3x/webgpu"
 depends: [
   "dune" {>= "2.2"}
@@ -34,3 +33,4 @@ build: [
     "@doc" {with-doc}
   ]
 ]
+dev-repo: "git+https://github.com/tari3x/webgpu.git"

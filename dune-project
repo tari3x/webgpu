@@ -5,14 +5,14 @@
 (license  BSD-3-Clause)
 (authors "Misha Aizatulin <mihhail.aizatulin@gmail.com>")
 (maintainers "Misha Aizatulin <mihhail.aizatulin@gmail.com>")
-(name js_of_ocaml-webgpu)
+(name webgpu)
 (homepage https://github.com/tari3x/webgpu)
 (bug_reports https://github.com/tari3x/webgpu)
+(source (github tari3x/webgpu))
 (package
   (name js_of_ocaml-webidl)
   (synopsis "Generate js_of_ocaml bindings from webidl definitions")
   (description "Generate js_of_ocaml bindings from webidl definitions")
-  (documentation "https://tari3x.github.io/webgpu/")
   (depends
    core
    async
@@ -28,7 +28,6 @@
   (name js_of_ocaml-webgpu)
   (synopsis "Js_of_ocaml bindings for webgpu")
   (description "Js_of_ocaml bindings for webgpu")
-  (documentation "https://tari3x.github.io/webgpu/")
   (depends
    core
    async
