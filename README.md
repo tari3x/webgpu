@@ -18,4 +18,4 @@ Js_of_ocaml bindings for WebGPU (https://gpuweb.github.io/gpuweb/)
 The example is the rewrite in ocaml of
 https://hello-webgpu-compute.glitch.me/hello-compute-chromium.html.
 As of June 2020 you need firefox-nightly with dom.webgpu.enabled=true to
-run the example.
+run the example. You'll also need to install Vulkan if running on Linux.
