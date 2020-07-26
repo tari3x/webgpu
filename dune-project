@@ -17,7 +17,7 @@
    core
    async
    webidl
-   ppx_deriving.runtime
+   ppx_deriving
    js_of_ocaml
    js_of_ocaml-lwt
    js_of_ocaml-ppx
@@ -32,7 +32,7 @@
    core
    async
    webidl
-   ppx_deriving.runtime
+   ppx_deriving
    js_of_ocaml
    js_of_ocaml-lwt
    js_of_ocaml-ppx
