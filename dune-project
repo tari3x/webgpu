@@ -12,7 +12,7 @@
   (name js_of_ocaml-webidl)
   (synopsis "Generate js_of_ocaml bindings from webidl definitions")
   (description "Generate js_of_ocaml bindings from webidl definitions")
-  (doc "https://tari3x.github.io/webgpu/")
+  (documentation "https://tari3x.github.io/webgpu/")
   (depends
    core
    async
@@ -28,7 +28,7 @@
   (name js_of_ocaml-webgpu)
   (synopsis "Js_of_ocaml bindings for webgpu")
   (description "Js_of_ocaml bindings for webgpu")
-  (doc "https://tari3x.github.io/webgpu/")
+  (documentation "https://tari3x.github.io/webgpu/")
   (depends
    core
    async
