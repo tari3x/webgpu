@@ -19,12 +19,21 @@
    js_of_ocaml
    js_of_ocaml-lwt
    js_of_ocaml-ppx
-   ppx_jane)
+   ppx_jane
+   )
  )
 (package
   (name js_of_ocaml-webgpu)
   (synopsis "Js_of_ocaml bindings for webgpu")
   (depends
+   core
+   async
+   webidl
+   ppx_deriving.runtime
+   js_of_ocaml
+   js_of_ocaml-lwt
+   js_of_ocaml-ppx
+   ppx_jane
    js_of_ocaml-webidl
   )
  )
