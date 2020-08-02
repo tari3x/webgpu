@@ -6,11 +6,11 @@
   (pps ppx_jane js_of_ocaml-ppx)))
 
 (rule
- (targets raw.ml raw.mli)
+ (targets api.ml api.mli)
  (deps    WebGPU.webidl)
  (mode    promote) 
  (action  (progn
-    (run jsoo-webidl WebGPU.webidl -errors-file errors.out -output-module raw)
-    (run ocamlformat --profile=janestreet --enable-outside-detected-project --inplace raw.ml)
-    (run ocamlformat --profile=janestreet --enable-outside-detected-project --inplace raw.mli)
+    (run jsoo-webidl WebGPU.webidl -errors-file errors.out -output-module api)
+    (run ocamlformat --profile=janestreet --enable-outside-detected-project --inplace api.ml)
+    (run ocamlformat --profile=janestreet --enable-outside-detected-project --inplace api.mli)
                 )))
