@@ -15,9 +15,9 @@
   (synopsis "Generate js_of_ocaml bindings from webidl definitions")
   (description "Generate js_of_ocaml bindings from webidl definitions")
   (depends
-   (ocaml {>= "4.08"})
-   (core  {>= "v0.12"})
-   (async {>= "v0.12"})
+   (ocaml (>= "4.08"))
+   (core  (>= "v0.12"))
+   (async (>= "v0.12"))
    webidl
    ppx_deriving
    js_of_ocaml
@@ -31,15 +31,15 @@
   (synopsis "Js_of_ocaml bindings for webgpu")
   (description "Js_of_ocaml bindings for webgpu")
   (depends
-   (ocaml {>= "4.08"})
-   (core  {>= "v0.12"})
-   (async {>= "v0.12"})
+   (ocaml (>= "4.08"))
+   (core  (>= "v0.12"))
+   (async (>= "v0.12"))
    ppx_deriving
    js_of_ocaml
    js_of_ocaml-lwt
    js_of_ocaml-ppx
    ppx_jane
    ocamlformat
-   (js_of_ocaml-webidl {= version})
+   (js_of_ocaml-webidl (= version))
   )
  )
