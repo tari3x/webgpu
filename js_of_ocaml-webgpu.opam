@@ -10,15 +10,27 @@ doc: "https://tari3x.github.io/webgpu"
 bug-reports: "https://github.com/tari3x/webgpu"
 depends: [
   "dune" {>= "2.2"}
+  "ocaml"
+  "{>="
+  "4.08"
+  "}"
   "core"
+  "{>="
+  "v0.12"
+  "}"
   "async"
-  "webidl"
+  "{>="
+  "v0.12"
+  "}"
   "ppx_deriving"
   "js_of_ocaml"
   "js_of_ocaml-lwt"
   "js_of_ocaml-ppx"
   "ppx_jane"
+  "ocamlformat"
   "js_of_ocaml-webidl"
+  "{="
+  "version}"
 ]
 build: [
   ["dune" "subst"] {pinned}

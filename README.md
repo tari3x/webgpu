@@ -1,4 +1,6 @@
 
+Documentation: https://tari3x.github.io/webgpu
+
 Contains two opam packages:
 
 js_of_ocaml-webidl

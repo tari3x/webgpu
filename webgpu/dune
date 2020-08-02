@@ -8,4 +8,9 @@
 (rule
  (targets raw.ml raw.mli)
  (deps    WebGPU.webidl)
- (action  (run jsoo-webidl WebGPU.webidl -errors-file errors.out -output-module raw)))
+ (mode    promote) 
+ (action  (progn
+    (run jsoo-webidl WebGPU.webidl -errors-file errors.out -output-module raw)
+    (run ocamlformat --profile=janestreet --enable-outside-detected-project --inplace raw.ml)
+    (run ocamlformat --profile=janestreet --enable-outside-detected-project --inplace raw.mli)
+                )))
