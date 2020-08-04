@@ -40,6 +40,6 @@
    js_of_ocaml-ppx
    ppx_jane
    ocamlformat
-   (js_of_ocaml-webidl (= version))
+   (js_of_ocaml-webidl (= :version))
   )
  )
