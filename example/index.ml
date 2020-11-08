@@ -140,7 +140,6 @@ let src =
 ;;
 
 let computeOnGpu matrixA matrixB =
-  debug [%message "1"];
   let%bind code = Glslang.compile (Js.string src) |> Lwt_promise.to_lwt in
   let gpu = Webgpu.get () in
   let%bind adapter =
